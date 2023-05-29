@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 56%;
+    margin: 0 auto;
+    
+}
+.menu{
+    display: inline-block;
+    cursor: pointer;
+}
+.bar1, .bar2, .bar3 {
+    width: 40px;
+    height: 5px;
+    background-color: aqua;
+    margin-top: 5px;
+    transition: 0.4s;
+}
+.chang .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  .chang .bar2 {opacity: 0;}
+  
+  .chang .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
